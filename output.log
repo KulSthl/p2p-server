@@ -1,0 +1,438 @@
+[2021-01-06][20:06:11][P2P_server][INFO] Starting server
+[2021-01-06][20:06:11][actix_server::builder][INFO] Starting 8 workers
+[2021-01-06][20:06:11][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5000" service on 127.0.0.1:5000
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][20:06:12][actix_files][ERROR] Specified path is not a directory: "../../frontend/build"
+[2021-01-06][21:03:00][P2P_server][INFO] Starting server
+[2021-01-06][21:03:00][actix_server::builder][INFO] Starting 8 workers
+[2021-01-06][21:03:00][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-06][21:07:30][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][13:53:50][P2P_server][INFO] Starting server
+[2021-01-07][13:53:50][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][13:53:50][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][13:53:50][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][13:53:50][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:05:47][actix_web::middleware::logger][INFO] 127.0.0.1:50425 "GET /register HTTP/1.1" 404 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.001957
+[2021-01-07][14:05:47][actix_web::middleware::logger][INFO] 127.0.0.1:50425 "GET /favicon.ico HTTP/1.1" 404 0 "http://localhost:5001/register" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.000519
+[2021-01-07][14:06:03][actix_web::middleware::logger][INFO] 127.0.0.1:50437 "GET /register HTTP/1.1" 404 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.000651
+[2021-01-07][14:06:07][actix_web::middleware::logger][INFO] 127.0.0.1:50437 "GET /register HTTP/1.1" 404 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.000639
+[2021-01-07][14:11:31][actix_web::middleware::logger][INFO] 127.0.0.1:50635 "PUT /register?userid=1 HTTP/1.1" 404 0 "-" "PostmanRuntime/7.26.8" 0.008056
+[2021-01-07][14:12:13][actix_web::middleware::logger][INFO] 127.0.0.1:50642 "PUT /register?userid=1 HTTP/1.1" 404 0 "-" "PostmanRuntime/7.26.8" 0.001318
+[2021-01-07][14:12:35][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][14:13:09][P2P_server][INFO] Starting server
+[2021-01-07][14:13:09][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:13:09][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:13:09][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][P2P_server][INFO] Starting server
+[2021-01-07][14:13:28][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:13:28][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:13:28][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:28][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:13:34][actix_web::middleware::logger][INFO] 127.0.0.1:50705 "PUT /register?userid=1 HTTP/1.1" 404 0 "-" "PostmanRuntime/7.26.8" 0.001044
+[2021-01-07][14:15:01][actix_web::middleware::logger][INFO] 127.0.0.1:50717 "PUT /register?{userid=test} HTTP/1.1" 404 0 "-" "PostmanRuntime/7.26.8" 0.000797
+[2021-01-07][14:17:40][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][14:18:01][P2P_server][INFO] Starting server
+[2021-01-07][14:18:01][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:18:01][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:18:01][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:18:22][actix_web::middleware::logger][INFO] 127.0.0.1:50750 "PUT /register?userid=1 HTTP/1.1" 200 0 "-" "PostmanRuntime/7.26.8" 0.017009
+[2021-01-07][14:22:32][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][14:22:43][P2P_server][INFO] Starting server
+[2021-01-07][14:22:43][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:22:43][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:22:43][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:22:51][actix_web::middleware::logger][INFO] 127.0.0.1:50803 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.012713
+[2021-01-07][14:23:05][actix_web::middleware::logger][INFO] 127.0.0.1:50806 "PUT /register?userid=1 HTTP/1.1" 200 0 "-" "PostmanRuntime/7.26.8" 0.004673
+[2021-01-07][14:23:18][actix_web::middleware::logger][INFO] 127.0.0.1:50807 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003032
+[2021-01-07][14:26:12][actix_web::middleware::logger][INFO] 127.0.0.1:50837 "GET /register HTTP/1.1" 404 0 "-" "PostmanRuntime/7.26.8" 0.003346
+[2021-01-07][14:26:40][actix_web::middleware::logger][INFO] 127.0.0.1:50847 "GET /register HTTP/1.1" 404 0 "-" "PostmanRuntime/7.26.8" 0.003532
+[2021-01-07][14:26:56][actix_web::middleware::logger][INFO] 127.0.0.1:50849 "PUT /register HTTP/1.1" 200 0 "-" "PostmanRuntime/7.26.8" 0.006155
+[2021-01-07][14:27:38][actix_web::middleware::logger][INFO] 127.0.0.1:50852 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003765
+[2021-01-07][14:28:55][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][14:28:55][actix_redis::redis][ERROR] Can not connect to redis server: Mailbox has closed
+[2021-01-07][14:28:55][actix_redis::redis][ERROR] Can not connect to redis server: Mailbox has closed
+[2021-01-07][14:29:01][P2P_server][INFO] Starting server
+[2021-01-07][14:29:01][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:29:01][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:29:01][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:01][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:29:24][actix_web::middleware::logger][INFO] 127.0.0.1:50884 "PUT /register HTTP/1.1" 200 0 "-" "PostmanRuntime/7.26.8" 18.190339
+[2021-01-07][14:29:40][actix_web::middleware::logger][INFO] 127.0.0.1:50887 "PUT /register HTTP/1.1" 200 0 "-" "PostmanRuntime/7.26.8" 12.787209
+[2021-01-07][14:29:44][actix_web::middleware::logger][INFO] 127.0.0.1:50890 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.016740
+[2021-01-07][14:30:51][actix_web::middleware::logger][INFO] 127.0.0.1:50893 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 43.896344
+[2021-01-07][14:31:25][P2P_server][INFO] Starting server
+[2021-01-07][14:31:25][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:31:25][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:31:25][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:31:25][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:16][actix_web::middleware::logger][INFO] 127.0.0.1:50919 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 45.595414
+[2021-01-07][14:32:55][P2P_server][INFO] Starting server
+[2021-01-07][14:32:55][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:32:55][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:32:55][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:32:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:33:01][actix_web::middleware::logger][INFO] 127.0.0.1:50941 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.046653
+[2021-01-07][14:33:14][actix_web::middleware::logger][INFO] 127.0.0.1:50943 "PUT /register HTTP/1.1" 200 0 "-" "PostmanRuntime/7.26.8" 7.072108
+[2021-01-07][14:33:20][actix_web::middleware::logger][INFO] 127.0.0.1:50945 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.008288
+[2021-01-07][14:33:22][actix_web::middleware::logger][INFO] 127.0.0.1:50945 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.013602
+[2021-01-07][14:33:23][actix_web::middleware::logger][INFO] 127.0.0.1:50945 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003239
+[2021-01-07][14:33:24][actix_web::middleware::logger][INFO] 127.0.0.1:50945 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.007059
+[2021-01-07][14:33:25][actix_web::middleware::logger][INFO] 127.0.0.1:50945 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004620
+[2021-01-07][14:34:22][P2P_server][INFO] Starting server
+[2021-01-07][14:34:22][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:34:22][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:34:22][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:34:22][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][P2P_server][INFO] Starting server
+[2021-01-07][14:35:57][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:35:57][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:35:57][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:35:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:36:09][actix_web::middleware::logger][INFO] 127.0.0.1:51019 "PUT /register HTTP/1.1" 200 0 "-" "PostmanRuntime/7.26.8" 0.005375
+[2021-01-07][14:37:47][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][14:38:02][P2P_server][INFO] Starting server
+[2021-01-07][14:38:02][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:38:02][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:38:02][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:38:07][actix_web::middleware::logger][INFO] 127.0.0.1:51049 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.052375
+[2021-01-07][14:38:23][actix_web::middleware::logger][INFO] 127.0.0.1:51051 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 9.081873
+[2021-01-07][14:38:30][actix_web::middleware::logger][INFO] 127.0.0.1:51055 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.016019
+[2021-01-07][14:38:32][actix_web::middleware::logger][INFO] 127.0.0.1:51055 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.018420
+[2021-01-07][14:38:33][actix_web::middleware::logger][INFO] 127.0.0.1:51055 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.006468
+[2021-01-07][14:38:33][actix_web::middleware::logger][INFO] 127.0.0.1:51055 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.006133
+[2021-01-07][14:38:34][actix_web::middleware::logger][INFO] 127.0.0.1:51055 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.006343
+[2021-01-07][14:40:05][P2P_server][INFO] Starting server
+[2021-01-07][14:40:05][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:40:05][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:40:05][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:05][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:40:10][actix_web::middleware::logger][INFO] 127.0.0.1:51092 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.047425
+[2021-01-07][14:40:12][actix_web::middleware::logger][INFO] 127.0.0.1:51092 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.016736
+[2021-01-07][14:40:13][actix_web::middleware::logger][INFO] 127.0.0.1:51092 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004458
+[2021-01-07][14:40:13][actix_web::middleware::logger][INFO] 127.0.0.1:51092 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.005852
+[2021-01-07][14:40:20][actix_web::middleware::logger][INFO] 127.0.0.1:51095 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.030383
+[2021-01-07][14:40:21][actix_web::middleware::logger][INFO] 127.0.0.1:51095 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.013843
+[2021-01-07][14:40:53][actix_web::middleware::logger][INFO] 127.0.0.1:51105 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.007426
+[2021-01-07][14:41:00][actix_web::middleware::logger][INFO] 127.0.0.1:51108 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.003762
+[2021-01-07][14:41:00][actix_web::middleware::logger][INFO] 127.0.0.1:51108 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.004375
+[2021-01-07][14:41:01][actix_web::middleware::logger][INFO] 127.0.0.1:51108 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.003349
+[2021-01-07][14:41:01][actix_web::middleware::logger][INFO] 127.0.0.1:51108 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.004506
+[2021-01-07][14:41:02][actix_web::middleware::logger][INFO] 127.0.0.1:51108 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.003591
+[2021-01-07][14:41:02][actix_web::middleware::logger][INFO] 127.0.0.1:51108 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.003920
+[2021-01-07][14:41:03][actix_web::middleware::logger][INFO] 127.0.0.1:51108 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.003473
+[2021-01-07][14:41:10][actix_web::middleware::logger][INFO] 127.0.0.1:51110 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.011851
+[2021-01-07][14:41:13][actix_web::middleware::logger][INFO] 127.0.0.1:51110 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.007045
+[2021-01-07][14:41:14][actix_web::middleware::logger][INFO] 127.0.0.1:51110 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.003519
+[2021-01-07][14:41:22][actix_web::middleware::logger][INFO] 127.0.0.1:51111 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003556
+[2021-01-07][14:41:23][actix_web::middleware::logger][INFO] 127.0.0.1:51111 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003622
+[2021-01-07][14:41:23][actix_web::middleware::logger][INFO] 127.0.0.1:51111 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.008762
+[2021-01-07][14:41:29][actix_web::middleware::logger][INFO] 127.0.0.1:51112 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003842
+[2021-01-07][14:41:29][actix_web::middleware::logger][INFO] 127.0.0.1:51112 "GET /users HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004266
+[2021-01-07][14:42:44][P2P_server][INFO] Starting server
+[2021-01-07][14:42:44][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][14:42:44][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][14:42:45][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][14:42:52][actix_web::middleware::logger][INFO] 127.0.0.1:51137 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.043697
+[2021-01-07][14:42:57][actix_web::middleware::logger][INFO] 127.0.0.1:51137 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.030875
+[2021-01-07][14:43:00][actix_web::middleware::logger][INFO] 127.0.0.1:51137 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.012232
+[2021-01-07][14:43:05][actix_web::middleware::logger][INFO] 127.0.0.1:51137 "PUT /register HTTP/1.1" 200 51 "-" "PostmanRuntime/7.26.8" 0.012413
+[2021-01-07][14:43:08][actix_web::middleware::logger][INFO] 127.0.0.1:51137 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.004081
+[2021-01-07][15:10:22][P2P_server][INFO] Starting server
+[2021-01-07][15:10:22][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][15:10:22][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][15:10:23][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:10:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:11:05][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:11:05][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:11:05][actix_web::middleware::logger][INFO] 127.0.0.1:51416 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.054560
+[2021-01-07][15:11:31][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:11:31][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:11:31][actix_web::middleware::logger][INFO] 127.0.0.1:51420 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.011389
+[2021-01-07][15:11:38][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:11:38][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:11:38][actix_web::middleware::logger][INFO] 127.0.0.1:51422 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.017474
+[2021-01-07][15:11:39][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:11:39][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:11:39][actix_web::middleware::logger][INFO] 127.0.0.1:51422 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.023921
+[2021-01-07][15:11:39][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:11:39][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:11:39][actix_web::middleware::logger][INFO] 127.0.0.1:51422 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.011663
+[2021-01-07][15:11:40][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:11:40][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:11:40][actix_web::middleware::logger][INFO] 127.0.0.1:51422 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.015721
+[2021-01-07][15:11:44][actix_web::middleware::logger][INFO] 127.0.0.1:51422 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.026024
+[2021-01-07][15:11:45][actix_web::middleware::logger][INFO] 127.0.0.1:51422 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.003298
+[2021-01-07][15:12:07][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:12:07][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:12:07][actix_web::middleware::logger][INFO] 127.0.0.1:51429 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.022335
+[2021-01-07][15:12:08][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:12:08][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:12:08][actix_web::middleware::logger][INFO] 127.0.0.1:51429 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.008987
+[2021-01-07][15:12:31][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:12:31][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:12:31][actix_web::middleware::logger][INFO] 127.0.0.1:51433 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.005637
+[2021-01-07][15:12:31][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:12:31][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:12:31][actix_web::middleware::logger][INFO] 127.0.0.1:51433 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.014298
+[2021-01-07][15:12:32][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:12:32][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:12:32][actix_web::middleware::logger][INFO] 127.0.0.1:51433 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.024630
+[2021-01-07][15:12:33][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:12:33][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:12:33][actix_web::middleware::logger][INFO] 127.0.0.1:51433 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.019058
+[2021-01-07][15:12:41][actix_web::middleware::logger][INFO] 127.0.0.1:51435 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.004296
+[2021-01-07][15:12:41][actix_web::middleware::logger][INFO] 127.0.0.1:51435 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 0.004064
+[2021-01-07][15:13:06][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:13:06][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:13:06][actix_web::middleware::logger][INFO] 127.0.0.1:51449 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.006174
+[2021-01-07][15:13:14][P2P_server][INFO] Starting server
+[2021-01-07][15:13:14][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][15:13:14][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][15:13:14][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:13:33][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:13:33][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:13:34][actix_web::middleware::logger][INFO] 127.0.0.1:51468 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.050817
+[2021-01-07][15:13:42][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:13:42][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:13:42][actix_web::middleware::logger][INFO] 127.0.0.1:51470 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.041413
+[2021-01-07][15:13:44][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:13:44][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:13:44][actix_web::middleware::logger][INFO] 127.0.0.1:51470 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.013751
+[2021-01-07][15:13:45][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:13:45][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:13:45][actix_web::middleware::logger][INFO] 127.0.0.1:51470 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.011947
+[2021-01-07][15:13:45][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:13:45][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:13:45][actix_web::middleware::logger][INFO] 127.0.0.1:51470 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.017726
+[2021-01-07][15:20:19][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:20:19][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:20:19][actix_web::middleware::logger][INFO] 127.0.0.1:51517 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.012180
+[2021-01-07][15:28:33][P2P_server][INFO] Starting server
+[2021-01-07][15:28:33][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][15:28:33][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][15:28:34][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:34][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:28:40][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:28:40][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:28:40][actix_web::middleware::logger][INFO] 127.0.0.1:51583 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.051279
+[2021-01-07][15:28:53][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:28:53][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:28:53][actix_web::middleware::logger][INFO] 127.0.0.1:51586 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.010184
+[2021-01-07][15:28:54][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:28:54][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:28:54][actix_web::middleware::logger][INFO] 127.0.0.1:51586 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.013788
+[2021-01-07][15:28:55][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:28:55][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:28:55][actix_web::middleware::logger][INFO] 127.0.0.1:51586 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.015101
+[2021-01-07][15:28:55][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:28:55][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:28:55][actix_web::middleware::logger][INFO] 127.0.0.1:51586 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.016906
+[2021-01-07][15:28:56][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:28:56][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:28:56][actix_web::middleware::logger][INFO] 127.0.0.1:51586 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.022411
+[2021-01-07][15:29:27][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:29:27][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:29:27][actix_web::middleware::logger][INFO] 127.0.0.1:51606 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.019727
+[2021-01-07][15:29:42][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:29:42][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:29:42][actix_web::middleware::logger][INFO] 127.0.0.1:51610 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.013597
+[2021-01-07][15:34:24][actix_web::middleware::logger][INFO] 127.0.0.1:51645 "GET /users HTTP/1.1" 200 13 "-" "PostmanRuntime/7.26.8" 2.954008
+[2021-01-07][15:34:28][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:34:28][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:34:28][actix_web::middleware::logger][INFO] 127.0.0.1:51647 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.012712
+[2021-01-07][15:34:29][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:34:29][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:34:29][actix_web::middleware::logger][INFO] 127.0.0.1:51647 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.010054
+[2021-01-07][15:34:30][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:34:30][actix_web::middleware::logger][DEBUG] Error in response: ContentType
+[2021-01-07][15:34:30][actix_web::middleware::logger][INFO] 127.0.0.1:51647 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.003724
+[2021-01-07][15:35:16][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-07][15:35:16][actix_web::middleware::logger][DEBUG] Error in response: Deserialize(Error("missing field `id`", line: 3, column: 1))
+[2021-01-07][15:35:16][actix_web::middleware::logger][INFO] 127.0.0.1:51650 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.028605
+[2021-01-07][15:36:13][actix_web::middleware::logger][INFO] 127.0.0.1:51658 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 16.286559
+[2021-01-07][15:36:30][actix_web::middleware::logger][INFO] 127.0.0.1:51662 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 6.364171
+[2021-01-07][15:37:18][P2P_server][INFO] Starting server
+[2021-01-07][15:37:18][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][15:37:18][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][15:37:18][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:53][P2P_server][INFO] Starting server
+[2021-01-07][15:37:53][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][15:37:53][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][15:37:54][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:37:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:38:07][actix_web::middleware::logger][INFO] 127.0.0.1:51704 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 5.408907
+[2021-01-07][15:43:18][P2P_server][INFO] Starting server
+[2021-01-07][15:43:18][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][15:43:18][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][15:43:18][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:18][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][15:43:33][actix_web::middleware::logger][INFO] 127.0.0.1:51765 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 5.588263
+[2021-01-07][15:43:44][actix_web::middleware::logger][INFO] 127.0.0.1:51768 "GET /users HTTP/1.1" 200 38 "-" "PostmanRuntime/7.26.8" 5.935470
+[2021-01-07][15:43:49][actix_web::middleware::logger][INFO] 127.0.0.1:51771 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 0.007928
+[2021-01-07][15:43:51][actix_web::middleware::logger][INFO] 127.0.0.1:51771 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 0.018214
+[2021-01-07][15:43:52][actix_web::middleware::logger][INFO] 127.0.0.1:51771 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 0.007342
+[2021-01-07][15:43:55][actix_web::middleware::logger][INFO] 127.0.0.1:51771 "GET /users HTTP/1.1" 200 149 "-" "PostmanRuntime/7.26.8" 0.003921
+[2021-01-07][15:45:30][actix_web::middleware::logger][INFO] 127.0.0.1:51799 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 0.013171
+[2021-01-07][15:56:36][actix_web::middleware::logger][INFO] 127.0.0.1:51936 "PUT /register HTTP/1.1" 200 36 "-" "PostmanRuntime/7.26.8" 0.020154
+[2021-01-07][15:57:22][actix_web::middleware::logger][INFO] 127.0.0.1:51955 "GET /users HTTP/1.1" 200 223 "-" "PostmanRuntime/7.26.8" 0.004800
+[2021-01-07][16:06:10][P2P_server][INFO] Starting server
+[2021-01-07][16:06:10][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][16:06:10][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][16:06:10][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:10][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:06:26][actix_web::middleware::logger][INFO] 127.0.0.1:52033 "GET /users HTTP/1.1" 200 2 "-" "PostmanRuntime/7.26.8" 0.041814
+[2021-01-07][16:06:30][actix_web::middleware::logger][INFO] 127.0.0.1:52033 "PUT /register HTTP/1.1" 200 70 "-" "PostmanRuntime/7.26.8" 0.042565
+[2021-01-07][16:06:39][actix_web::middleware::logger][INFO] 127.0.0.1:52036 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.014263
