@@ -436,3 +436,951 @@
 [2021-01-07][16:06:26][actix_web::middleware::logger][INFO] 127.0.0.1:52033 "GET /users HTTP/1.1" 200 2 "-" "PostmanRuntime/7.26.8" 0.041814
 [2021-01-07][16:06:30][actix_web::middleware::logger][INFO] 127.0.0.1:52033 "PUT /register HTTP/1.1" 200 70 "-" "PostmanRuntime/7.26.8" 0.042565
 [2021-01-07][16:06:39][actix_web::middleware::logger][INFO] 127.0.0.1:52036 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.014263
+[2021-01-07][16:43:53][P2P_server][INFO] Starting server
+[2021-01-07][16:43:53][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][16:43:53][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][16:43:53][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:43:53][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:50:13][actix_web::middleware::logger][INFO] 127.0.0.1:53449 "GET /users HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" 0.039608
+[2021-01-07][16:50:13][actix_web::middleware::logger][INFO] 127.0.0.1:53455 "GET /favicon.ico HTTP/1.1" 404 0 "http://localhost:5001/users" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" 0.004496
+[2021-01-07][16:50:33][actix_web::middleware::logger][INFO] 127.0.0.1:53542 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003305
+[2021-01-07][16:50:44][actix_web::middleware::logger][INFO] 127.0.0.1:53591 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003998
+[2021-01-07][16:50:56][actix_web::middleware::logger][INFO] 127.0.0.1:53652 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004283
+[2021-01-07][16:51:07][actix_web::middleware::logger][INFO] 127.0.0.1:53703 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004098
+[2021-01-07][16:51:34][actix_web::middleware::logger][INFO] 127.0.0.1:53820 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003601
+[2021-01-07][16:51:36][actix_web::middleware::logger][INFO] 127.0.0.1:53820 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.024658
+[2021-01-07][16:52:31][actix_web::middleware::logger][INFO] 127.0.0.1:54067 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.007673
+[2021-01-07][16:53:14][actix_web::middleware::logger][INFO] 127.0.0.1:54243 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003058
+[2021-01-07][16:53:41][actix_web::middleware::logger][INFO] 127.0.0.1:54359 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.007110
+[2021-01-07][16:55:52][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][16:56:07][P2P_server][INFO] Starting server
+[2021-01-07][16:56:07][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][16:56:07][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][16:56:07][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:07][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][16:56:15][actix_web::middleware::logger][INFO] 127.0.0.1:55026 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.013685
+[2021-01-07][16:56:15][actix_web::middleware::logger][INFO] 127.0.0.1:55026 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.001567
+[2021-01-07][16:56:19][actix_web::middleware::logger][INFO] 127.0.0.1:55026 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004504
+[2021-01-07][16:56:19][actix_web::middleware::logger][INFO] 127.0.0.1:55026 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003804
+[2021-01-07][16:57:52][actix_web::middleware::logger][INFO] 127.0.0.1:55436 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.007305
+[2021-01-07][16:59:26][actix_web::middleware::logger][INFO] 127.0.0.1:55502 "GET /users HTTP/1.1" 200 2 "-" "PostmanRuntime/7.26.8" 0.004842
+[2021-01-07][16:59:50][actix_web::middleware::logger][INFO] 127.0.0.1:55506 "PUT /register HTTP/1.1" 200 70 "-" "PostmanRuntime/7.26.8" 0.022868
+[2021-01-07][16:59:54][actix_web::middleware::logger][INFO] 127.0.0.1:55506 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.003846
+[2021-01-07][17:00:01][actix_web::middleware::logger][INFO] 127.0.0.1:55527 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004379
+[2021-01-07][17:00:07][actix_web::middleware::logger][INFO] 127.0.0.1:55544 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005461
+[2021-01-07][17:00:07][actix_web::middleware::logger][INFO] 127.0.0.1:55544 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003958
+[2021-01-07][17:00:58][actix_web::middleware::logger][INFO] 127.0.0.1:55767 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005176
+[2021-01-07][17:02:06][actix_web::middleware::logger][INFO] 127.0.0.1:56066 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004049
+[2021-01-07][17:02:06][actix_web::middleware::logger][INFO] 127.0.0.1:56066 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003222
+[2021-01-07][17:02:13][actix_web::middleware::logger][INFO] 127.0.0.1:56092 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004228
+[2021-01-07][17:02:21][actix_web::middleware::logger][INFO] 127.0.0.1:56128 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.006603
+[2021-01-07][17:02:44][actix_web::middleware::logger][INFO] 127.0.0.1:56226 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004315
+[2021-01-07][17:02:44][actix_web::middleware::logger][INFO] 127.0.0.1:56226 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003384
+[2021-01-07][17:02:45][actix_web::middleware::logger][INFO] 127.0.0.1:56226 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005184
+[2021-01-07][17:02:45][actix_web::middleware::logger][INFO] 127.0.0.1:56226 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003370
+[2021-01-07][17:02:53][actix_web::middleware::logger][INFO] 127.0.0.1:56265 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.024063
+[2021-01-07][17:02:56][actix_web::middleware::logger][INFO] 127.0.0.1:56265 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.003618
+[2021-01-07][17:04:37][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][17:05:03][P2P_server][INFO] Starting server
+[2021-01-07][17:05:03][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][17:05:03][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][17:05:03][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:05:47][actix_web::middleware::logger][INFO] 127.0.0.1:56894 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 26.636406
+[2021-01-07][17:06:27][actix_web::middleware::logger][INFO] 127.0.0.1:57008 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 40.609774
+[2021-01-07][17:07:10][actix_web::middleware::logger][INFO] 127.0.0.1:57299 "PUT /register HTTP/1.1" 200 70 "-" "PostmanRuntime/7.26.8" 11.240107
+[2021-01-07][17:07:27][actix_web::middleware::logger][INFO] 127.0.0.1:57375 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 10.775697
+[2021-01-07][17:09:54][actix_web::middleware::logger][INFO] 127.0.0.1:57862 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 26.717771
+[2021-01-07][17:09:54][actix_web::middleware::logger][INFO] 127.0.0.1:57867 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 26.718749
+[2021-01-07][17:09:54][actix_web::middleware::logger][INFO] 127.0.0.1:57854 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 39.199702
+[2021-01-07][17:09:59][actix_web::middleware::logger][INFO] 127.0.0.1:57854 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 4.875275
+[2021-01-07][17:10:17][P2P_server][INFO] Starting server
+[2021-01-07][17:10:17][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][17:10:17][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][17:10:17][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:10:21][actix_web::middleware::logger][INFO] 127.0.0.1:58160 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.006739
+[2021-01-07][17:10:21][actix_web::middleware::logger][INFO] 127.0.0.1:58160 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004794
+[2021-01-07][17:10:41][actix_web::middleware::logger][INFO] 127.0.0.1:58251 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003804
+[2021-01-07][17:10:48][actix_web::middleware::logger][INFO] 127.0.0.1:58283 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003648
+[2021-01-07][17:10:48][actix_web::middleware::logger][INFO] 127.0.0.1:58283 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004319
+[2021-01-07][17:11:21][actix_web::middleware::logger][INFO] 127.0.0.1:58422 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003403
+[2021-01-07][17:11:21][actix_web::middleware::logger][INFO] 127.0.0.1:58422 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003563
+[2021-01-07][17:11:32][actix_web::middleware::logger][INFO] 127.0.0.1:58468 "GET /users HTTP/1.1" 200 2 "-" "PostmanRuntime/7.26.8" 0.004296
+[2021-01-07][17:11:35][actix_web::middleware::logger][INFO] 127.0.0.1:58468 "PUT /register HTTP/1.1" 200 70 "-" "PostmanRuntime/7.26.8" 0.028358
+[2021-01-07][17:11:38][actix_web::middleware::logger][INFO] 127.0.0.1:58468 "PUT /register HTTP/1.1" 200 70 "-" "PostmanRuntime/7.26.8" 0.006743
+[2021-01-07][17:11:40][actix_web::middleware::logger][INFO] 127.0.0.1:58468 "GET /users HTTP/1.1" 200 143 "-" "PostmanRuntime/7.26.8" 0.003899
+[2021-01-07][17:11:58][actix_web::middleware::logger][INFO] 127.0.0.1:58574 "GET /users HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" 0.003795
+[2021-01-07][17:12:01][actix_web::middleware::logger][INFO] 127.0.0.1:58574 "GET /users HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" 0.004265
+[2021-01-07][17:12:08][actix_web::middleware::logger][INFO] 127.0.0.1:58620 "GET /users HTTP/1.1" 200 143 "-" "PostmanRuntime/7.26.8" 0.003333
+[2021-01-07][17:12:09][actix_web::middleware::logger][INFO] 127.0.0.1:58620 "GET /users HTTP/1.1" 200 143 "-" "PostmanRuntime/7.26.8" 0.005040
+[2021-01-07][17:12:14][actix_web::middleware::logger][INFO] 127.0.0.1:58620 "GET /users HTTP/1.1" 200 143 "-" "PostmanRuntime/7.26.8" 0.003557
+[2021-01-07][17:12:24][actix_web::middleware::logger][INFO] 127.0.0.1:58686 "GET /users HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004749
+[2021-01-07][17:12:41][actix_web::middleware::logger][INFO] 127.0.0.1:58761 "GET /users HTTP/1.1" 200 143 "-" "PostmanRuntime/7.26.8" 0.003761
+[2021-01-07][17:13:20][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][17:13:32][P2P_server][INFO] Starting server
+[2021-01-07][17:13:32][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][17:13:32][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][17:13:32][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][17:13:34][actix_web::middleware::logger][INFO] 127.0.0.1:58986 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005988
+[2021-01-07][17:13:34][actix_web::middleware::logger][INFO] 127.0.0.1:58986 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004036
+[2021-01-07][17:13:44][actix_web::middleware::logger][INFO] 127.0.0.1:59032 "PUT /register HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003548
+[2021-01-07][17:13:44][actix_web::middleware::logger][INFO] 127.0.0.1:59032 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004265
+[2021-01-07][17:13:51][actix_web::middleware::logger][INFO] 127.0.0.1:59062 "GET /users HTTP/1.1" 200 2 "-" "PostmanRuntime/7.26.8" 0.006869
+[2021-01-07][17:13:57][actix_web::middleware::logger][INFO] 127.0.0.1:59084 "PUT /register HTTP/1.1" 200 70 "-" "PostmanRuntime/7.26.8" 0.006879
+[2021-01-07][17:14:01][actix_web::middleware::logger][INFO] 127.0.0.1:59084 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.008195
+[2021-01-07][17:14:22][actix_web::middleware::logger][INFO] 127.0.0.1:59185 "GET /users HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004330
+[2021-01-07][17:15:11][actix_web::middleware::logger][INFO] 127.0.0.1:59403 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.004262
+[2021-01-07][17:15:12][actix_web::middleware::logger][INFO] 127.0.0.1:59403 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.003810
+[2021-01-07][17:15:36][actix_web::middleware::logger][INFO] 127.0.0.1:59515 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.004887
+[2021-01-07][17:15:44][actix_web::middleware::logger][INFO] 127.0.0.1:59548 "GET /users HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004276
+[2021-01-07][17:16:00][actix_web::middleware::logger][INFO] 127.0.0.1:59620 "PUT /register HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.015502
+[2021-01-07][17:16:00][actix_web::middleware::logger][INFO] 127.0.0.1:59620 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005683
+[2021-01-07][17:16:06][actix_web::middleware::logger][INFO] 127.0.0.1:59642 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004047
+[2021-01-07][17:16:06][actix_web::middleware::logger][INFO] 127.0.0.1:59642 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004252
+[2021-01-07][17:16:31][actix_web::middleware::logger][INFO] 127.0.0.1:59746 "GET /users HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8" 0.005315
+[2021-01-07][17:20:09][actix_web::middleware::logger][INFO] 127.0.0.1:60651 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004631
+[2021-01-07][17:20:11][actix_web::middleware::logger][INFO] 127.0.0.1:60651 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003268
+[2021-01-07][17:20:11][actix_web::middleware::logger][INFO] 127.0.0.1:60651 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003337
+[2021-01-07][17:20:15][actix_web::middleware::logger][INFO] 127.0.0.1:60651 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.010284
+[2021-01-07][17:20:15][actix_web::middleware::logger][INFO] 127.0.0.1:60651 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.004413
+[2021-01-07][17:29:20][actix_web::middleware::logger][INFO] 127.0.0.1:63052 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.031816
+[2021-01-07][17:29:21][actix_web::middleware::logger][INFO] 127.0.0.1:63057 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003817
+[2021-01-07][17:29:29][actix_web::middleware::logger][INFO] 127.0.0.1:63096 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004241
+[2021-01-07][17:29:30][actix_web::middleware::logger][INFO] 127.0.0.1:63101 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003633
+[2021-01-07][17:29:34][actix_web::middleware::logger][INFO] 127.0.0.1:63119 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004094
+[2021-01-07][17:29:34][actix_web::middleware::logger][INFO] 127.0.0.1:63119 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003086
+[2021-01-07][17:29:38][actix_web::middleware::logger][INFO] 127.0.0.1:63119 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005812
+[2021-01-07][17:29:40][actix_web::middleware::logger][INFO] 127.0.0.1:63119 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004965
+[2021-01-07][17:29:40][actix_web::middleware::logger][INFO] 127.0.0.1:63119 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003456
+[2021-01-07][17:29:59][actix_web::middleware::logger][INFO] 127.0.0.1:63240 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005787
+[2021-01-07][17:30:03][actix_web::middleware::logger][INFO] 127.0.0.1:63240 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004551
+[2021-01-07][17:30:03][actix_web::middleware::logger][INFO] 127.0.0.1:63240 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004520
+[2021-01-07][17:31:56][actix_web::middleware::logger][INFO] 127.0.0.1:63746 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.007340
+[2021-01-07][17:31:57][actix_web::middleware::logger][INFO] 127.0.0.1:63753 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003749
+[2021-01-07][17:32:02][actix_web::middleware::logger][INFO] 127.0.0.1:63788 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003540
+[2021-01-07][17:35:27][actix_web::middleware::logger][INFO] 127.0.0.1:64664 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005155
+[2021-01-07][17:35:28][actix_web::middleware::logger][INFO] 127.0.0.1:64669 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.003824
+[2021-01-07][17:35:33][actix_web::middleware::logger][INFO] 127.0.0.1:64700 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.013015
+[2021-01-07][17:35:35][actix_web::middleware::logger][INFO] 127.0.0.1:64712 "PUT /register HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005442
+[2021-01-07][17:35:35][actix_web::middleware::logger][INFO] 127.0.0.1:64700 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.049863
+[2021-01-07][17:35:43][actix_web::middleware::logger][INFO] 127.0.0.1:64748 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003897
+[2021-01-07][17:35:47][actix_web::middleware::logger][INFO] 127.0.0.1:64772 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004906
+[2021-01-07][17:35:47][actix_web::middleware::logger][INFO] 127.0.0.1:64748 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004050
+[2021-01-07][17:36:31][actix_web::middleware::logger][INFO] 127.0.0.1:64953 "PUT /register HTTP/1.1" 200 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.006120
+[2021-01-07][17:36:31][actix_web::middleware::logger][INFO] 127.0.0.1:64955 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003464
+[2021-01-07][17:37:41][actix_web::middleware::logger][INFO] 127.0.0.1:65246 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005290
+[2021-01-07][17:37:42][actix_web::middleware::logger][INFO] 127.0.0.1:65251 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.1; rv:84.0) Gecko/20100101 Firefox/84.0" 0.008505
+[2021-01-07][17:37:43][actix_web::middleware::logger][INFO] 127.0.0.1:65246 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.005444
+[2021-01-07][17:37:43][actix_web::middleware::logger][INFO] 127.0.0.1:65246 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.004837
+[2021-01-07][17:37:44][actix_web::middleware::logger][INFO] 127.0.0.1:65246 "GET /users HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.003921
+[2021-01-07][18:39:25][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-07][19:49:15][P2P_server][INFO] Starting server
+[2021-01-07][19:49:15][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][19:49:15][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][19:49:15][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:15][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:56][P2P_server][INFO] Starting server
+[2021-01-07][19:49:56][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][19:49:56][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][19:49:57][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:49:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:53][P2P_server][INFO] Starting server
+[2021-01-07][19:57:53][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][19:57:53][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][19:57:54][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][19:57:54][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:22][P2P_server][INFO] Starting server
+[2021-01-07][20:00:22][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][20:00:22][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][20:00:23][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:00:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:36][P2P_server][INFO] Starting server
+[2021-01-07][20:09:36][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][20:09:36][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5001" service on 127.0.0.1:5001
+[2021-01-07][20:09:37][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][20:09:37][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][P2P_server][INFO] Starting server
+[2021-01-07][21:44:40][actix_server::builder][INFO] Starting 8 workers
+[2021-01-07][21:44:40][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-07][21:44:40][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-07][21:44:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:41][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][00:07:57][P2P_server][INFO] Starting server
+[2021-01-08][00:07:57][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][00:07:57][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][00:07:57][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:07:59][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][00:08:09][P2P_server][INFO] Starting server
+[2021-01-08][00:08:09][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][00:08:09][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][00:08:09][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][00:08:09][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][P2P_server][INFO] Starting server
+[2021-01-08][13:59:06][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][13:59:06][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][13:59:06][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][13:59:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][P2P_server][INFO] Starting server
+[2021-01-08][14:03:03][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:03:03][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:03:03][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:19][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][14:03:40][P2P_server][INFO] Starting server
+[2021-01-08][14:03:40][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:03:40][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:03:40][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:03:58][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][14:15:06][P2P_server][INFO] Starting server
+[2021-01-08][14:15:06][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:15:06][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:15:06][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:06][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:14][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][14:15:21][P2P_server][INFO] Starting server
+[2021-01-08][14:15:21][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:15:21][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:15:21][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:15:38][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-08][14:15:38][actix_web::middleware::logger][DEBUG] Error in response: Deserialize(Error("missing field `username`", line: 7, column: 1))
+[2021-01-08][14:15:38][actix_web::middleware::logger][INFO] 127.0.0.1:60921 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.129729
+[2021-01-08][14:17:36][actix_web::middleware::logger][INFO] 127.0.0.1:60938 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 12.454910
+[2021-01-08][14:18:10][actix_web::middleware::logger][INFO] 127.0.0.1:60950 "GET /users HTTP/1.1" 200 2 "-" "PostmanRuntime/7.26.8" 23.567094
+[2021-01-08][14:26:44][P2P_server][INFO] Starting server
+[2021-01-08][14:26:44][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:26:44][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:26:45][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:26:45][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:27:45][actix_web::middleware::logger][INFO] 127.0.0.1:61073 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 14.178128
+[2021-01-08][14:28:06][actix_web::middleware::logger][INFO] 127.0.0.1:61080 "GET /users HTTP/1.1" 200 2 "-" "PostmanRuntime/7.26.8" 10.688307
+[2021-01-08][14:40:23][P2P_server][INFO] Starting server
+[2021-01-08][14:40:23][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:40:23][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:40:23][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:40:30][actix_web::middleware::logger][INFO] 127.0.0.1:61266 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 0.033649
+[2021-01-08][14:41:08][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][14:41:21][P2P_server][INFO] Starting server
+[2021-01-08][14:41:21][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:41:21][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:41:21][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:21][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:41:24][actix_web::middleware::logger][INFO] 127.0.0.1:61292 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 0.032736
+[2021-01-08][14:42:25][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][14:42:40][P2P_server][INFO] Starting server
+[2021-01-08][14:42:40][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:42:40][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:42:40][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:40][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:42:44][actix_web::middleware::logger][INFO] 127.0.0.1:61317 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 0.004788
+[2021-01-08][14:47:37][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][14:48:17][P2P_server][INFO] Starting server
+[2021-01-08][14:48:17][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:48:17][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:48:17][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:17][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:48:19][actix_web::middleware::logger][INFO] 127.0.0.1:61408 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 0.173293
+[2021-01-08][14:50:07][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][14:50:42][P2P_server][INFO] Starting server
+[2021-01-08][14:50:42][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:50:42][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:50:42][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:50:42][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:54:06][actix_web::middleware::logger][INFO] 127.0.0.1:61466 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 39.588786
+[2021-01-08][14:54:17][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 115.459µs
+
+SELECT
+  1
+
+[2021-01-08][14:54:18][actix_web::middleware::logger][INFO] 127.0.0.1:61475 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 0.122370
+[2021-01-08][14:56:03][P2P_server][INFO] Starting server
+[2021-01-08][14:56:03][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][14:56:03][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][14:56:03][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][14:56:06][actix_web::middleware::logger][INFO] 127.0.0.1:61505 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 0.220458
+[2021-01-08][15:01:04][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-08][15:01:04][actix_web::middleware::logger][DEBUG] Error in response: Deserialize(Error("expected value", line: 2, column: 20))
+[2021-01-08][15:01:04][actix_web::middleware::logger][INFO] 127.0.0.1:61576 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.102396
+[2021-01-08][15:02:23][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-08][15:02:23][actix_web::middleware::logger][DEBUG] Error in response: Deserialize(Error("invalid type: floating point `68.77683550268381`, expected a string", line: 2, column: 36))
+[2021-01-08][15:02:23][actix_web::middleware::logger][INFO] 127.0.0.1:61584 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.026402
+[2021-01-08][15:03:37][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-08][15:03:38][actix_web::middleware::logger][DEBUG] Error in response: Deserialize(Error("expected value", line: 2, column: 20))
+[2021-01-08][15:03:38][actix_web::middleware::logger][INFO] 127.0.0.1:61604 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.027141
+[2021-01-08][15:04:33][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-08][15:04:33][actix_web::middleware::logger][DEBUG] Error in response: Deserialize(Error("expected value", line: 2, column: 20))
+[2021-01-08][15:04:33][actix_web::middleware::logger][INFO] 127.0.0.1:61611 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.039772
+[2021-01-08][15:05:38][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 9.000µs
+
+SELECT
+  1
+
+[2021-01-08][15:05:38][actix_web::middleware::logger][INFO] 127.0.0.1:61623 "PUT /register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.26.8" 0.122462
+[2021-01-08][15:05:49][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][15:05:58][P2P_server][INFO] Starting server
+[2021-01-08][15:05:58][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][15:05:58][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][15:05:58][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:05:58][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][P2P_server][INFO] Starting server
+[2021-01-08][15:22:14][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][15:22:14][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][15:22:14][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:14][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:22:19][P2P_server::routes][DEBUG] User insert sucessful
+[2021-01-08][15:22:19][actix_web::middleware::logger][INFO] 127.0.0.1:61819 "PUT /register HTTP/1.1" 200 164 "-" "PostmanRuntime/7.26.8" 0.144427
+[2021-01-08][15:23:40][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][15:23:55][P2P_server][INFO] Starting server
+[2021-01-08][15:23:55][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][15:23:55][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][15:23:55][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:55][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:23:58][P2P_server::routes][DEBUG] User insert sucessful
+[2021-01-08][15:23:58][actix_web::middleware::logger][INFO] 127.0.0.1:61865 "PUT /register HTTP/1.1" 200 226 "-" "PostmanRuntime/7.26.8" 0.166813
+[2021-01-08][15:27:56][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 6.875µs
+
+SELECT
+  1
+
+[2021-01-08][15:27:56][P2P_server::routes][ERROR] User insert error
+[2021-01-08][15:27:56][actix_web::middleware::logger][INFO] 127.0.0.1:61914 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.209107
+[2021-01-08][15:28:36][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 2.375µs
+
+SELECT
+  1
+
+[2021-01-08][15:28:36][P2P_server::routes][ERROR] User insert error
+[2021-01-08][15:28:36][actix_web::middleware::logger][INFO] 127.0.0.1:61923 "PUT /register HTTP/1.1" 400 0 "-" "PostmanRuntime/7.26.8" 0.071137
+[2021-01-08][15:28:55][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][15:29:12][P2P_server][INFO] Starting server
+[2021-01-08][15:29:12][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][15:29:12][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][15:29:12][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:29:12][P2P_server::routes][ERROR] User insert error
+[2021-01-08][15:29:12][actix_web::middleware::logger][INFO] 127.0.0.1:61957 "PUT /register HTTP/1.1" 401 0 "-" "PostmanRuntime/7.26.8" 0.120109
+[2021-01-08][15:35:16][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][15:35:37][P2P_server][INFO] Starting server
+[2021-01-08][15:35:37][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][15:35:37][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][15:35:38][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][15:35:38][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][P2P_server][INFO] Starting server
+[2021-01-08][16:00:47][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:00:47][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:00:47][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:00:48][actix_web::middleware::logger][INFO] 127.0.0.1:62290 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.148149
+[2021-01-08][16:00:51][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.500µs
+
+SELECT
+  1
+
+[2021-01-08][16:00:51][actix_web::middleware::logger][INFO] 127.0.0.1:62290 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.081402
+[2021-01-08][16:01:12][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.167µs
+
+SELECT
+  1
+
+[2021-01-08][16:01:12][actix_web::middleware::logger][INFO] 127.0.0.1:62294 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.034180
+[2021-01-08][16:01:20][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.333µs
+
+SELECT
+  1
+
+[2021-01-08][16:01:20][actix_web::middleware::logger][INFO] 127.0.0.1:62296 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.057519
+[2021-01-08][16:01:24][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.334µs
+
+SELECT
+  1
+
+[2021-01-08][16:01:24][actix_web::middleware::logger][INFO] 127.0.0.1:62296 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.029555
+[2021-01-08][16:10:08][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][16:11:31][P2P_server][INFO] Starting server
+[2021-01-08][16:11:31][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:11:31][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:11:31][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:11:31][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:31][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:31][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:31][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:31][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:31][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:32][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:11:33][actix_web::middleware::logger][INFO] 127.0.0.1:62423 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.107906
+[2021-01-08][16:11:39][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.709µs
+
+SELECT
+  1
+
+[2021-01-08][16:11:39][actix_web::middleware::logger][INFO] 127.0.0.1:62426 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.030662
+[2021-01-08][16:14:45][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 3.833µs
+
+SELECT
+  1
+
+[2021-01-08][16:14:45][actix_web::middleware::logger][INFO] 127.0.0.1:62452 "GET /users HTTP/1.1" 200 961 "-" "PostmanRuntime/7.26.8" 0.047396
+[2021-01-08][16:14:47][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][16:15:03][P2P_server][INFO] Starting server
+[2021-01-08][16:15:03][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:15:03][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:15:03][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:03][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:15:13][actix_web::middleware::logger][INFO] 127.0.0.1:62464 "GET /users HTTP/1.1" 401 0 "-" "PostmanRuntime/7.26.8" 0.014570
+[2021-01-08][16:23:26][actix_web::types::json][DEBUG] Failed to deserialize Json from payload. Request path: /register
+[2021-01-08][16:23:26][actix_web::middleware::logger][DEBUG] Error in response: Deserialize(Error("missing field `username`", line: 1, column: 58))
+[2021-01-08][16:23:26][actix_web::middleware::logger][INFO] 127.0.0.1:64316 "PUT /register HTTP/1.1" 400 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.064287
+[2021-01-08][16:25:17][P2P_server::routes][DEBUG] User insert sucessful
+[2021-01-08][16:25:17][actix_web::middleware::logger][INFO] 127.0.0.1:64784 "PUT /register HTTP/1.1" 200 209 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.261870
+[2021-01-08][16:25:38][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 2.000µs
+
+SELECT
+  1
+
+[2021-01-08][16:25:38][P2P_server::routes][ERROR] User insert error
+[2021-01-08][16:25:38][actix_web::middleware::logger][INFO] 127.0.0.1:64877 "PUT /register HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.036171
+[2021-01-08][16:26:42][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 2.834µs
+
+SELECT
+  1
+
+[2021-01-08][16:26:42][P2P_server::routes][ERROR] User insert error
+[2021-01-08][16:26:42][actix_web::middleware::logger][INFO] 127.0.0.1:65137 "PUT /register HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.041530
+[2021-01-08][16:27:23][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.583µs
+
+SELECT
+  1
+
+[2021-01-08][16:27:23][P2P_server::routes][DEBUG] User insert sucessful
+[2021-01-08][16:27:23][actix_web::middleware::logger][INFO] 127.0.0.1:65316 "PUT /register HTTP/1.1" 200 211 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.059881
+[2021-01-08][16:29:32][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 521.667µs
+
+SELECT
+  1
+
+[2021-01-08][16:29:32][P2P_server::routes][DEBUG] User insert sucessful
+[2021-01-08][16:29:32][actix_web::middleware::logger][INFO] 127.0.0.1:49526 "PUT /register HTTP/1.1" 200 213 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.073888
+[2021-01-08][16:35:45][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][16:36:02][P2P_server][INFO] Starting server
+[2021-01-08][16:36:02][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:36:02][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:36:02][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:02][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:36:05][actix_web::middleware::logger][INFO] 127.0.0.1:51165 "PUT /login HTTP/1.1" 404 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.001096
+[2021-01-08][16:36:39][P2P_server::routes][ERROR] User insert error
+[2021-01-08][16:36:39][actix_web::middleware::logger][INFO] 127.0.0.1:51303 "PUT /register HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.189569
+[2021-01-08][16:37:09][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][16:37:23][P2P_server][INFO] Starting server
+[2021-01-08][16:37:23][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:37:23][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:37:23][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:37:23][actix_web::middleware::logger][INFO] 127.0.0.1:51495 "PUT /login HTTP/1.1" 404 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.000457
+[2021-01-08][16:37:26][actix_web::middleware::logger][INFO] 127.0.0.1:51495 "PUT /login HTTP/1.1" 404 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.000813
+[2021-01-08][16:37:44][P2P_server::routes][ERROR] User insert error
+[2021-01-08][16:37:44][actix_web::middleware::logger][INFO] 127.0.0.1:51591 "PUT /register HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.106484
+[2021-01-08][16:37:51][actix_web::middleware::logger][INFO] 127.0.0.1:51622 "PUT /login HTTP/1.1" 404 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.000690
+[2021-01-08][16:38:40][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][16:38:57][P2P_server][INFO] Starting server
+[2021-01-08][16:38:57][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:38:57][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:38:57][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:38:57][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:39:01][actix_web::middleware::logger][INFO] 127.0.0.1:51920 "PUT /login HTTP/1.1" 200 213 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.072325
+[2021-01-08][16:42:52][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 4.458µs
+
+SELECT
+  1
+
+[2021-01-08][16:42:52][actix_web::middleware::logger][INFO] 127.0.0.1:52889 "PUT /login HTTP/1.1" 200 213 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.076793
+[2021-01-08][16:44:40][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.834µs
+
+SELECT
+  1
+
+[2021-01-08][16:44:40][actix_web::middleware::logger][INFO] 127.0.0.1:53361 "PUT /login HTTP/1.1" 400 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.123281
+[2021-01-08][16:44:41][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.375µs
+
+SELECT
+  1
+
+[2021-01-08][16:44:41][P2P_server::routes][DEBUG] User insert sucessful
+[2021-01-08][16:44:41][actix_web::middleware::logger][INFO] 127.0.0.1:53361 "PUT /register HTTP/1.1" 200 211 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.078794
+[2021-01-08][16:45:12][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 2.166µs
+
+SELECT
+  1
+
+[2021-01-08][16:45:12][actix_web::middleware::logger][INFO] 127.0.0.1:53492 "PUT /login HTTP/1.1" 200 211 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.032323
+[2021-01-08][16:48:26][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.625µs
+
+SELECT
+  1
+
+[2021-01-08][16:48:26][P2P_server::routes][DEBUG] User insert sucessful
+[2021-01-08][16:48:26][actix_web::middleware::logger][INFO] 127.0.0.1:54311 "PUT /register HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.172783
+[2021-01-08][16:48:54][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][16:49:28][P2P_server][INFO] Starting server
+[2021-01-08][16:49:28][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:49:28][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:49:29][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:29][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:49:35][actix_web::middleware::logger][INFO] 127.0.0.1:54614 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.179107
+[2021-01-08][16:49:35][actix_web::middleware::logger][INFO] 127.0.0.1:54611 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.290237
+[2021-01-08][16:49:41][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 170.875µs
+
+SELECT
+  1
+
+[2021-01-08][16:49:41][actix_web::middleware::logger][INFO] 127.0.0.1:54649 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.070921
+[2021-01-08][16:57:46][P2P_server][INFO] Starting server
+[2021-01-08][16:57:46][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][16:57:46][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][16:57:47][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:47][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][16:57:49][actix_web::middleware::logger][INFO] 127.0.0.1:56721 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.303605
+[2021-01-08][16:58:03][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 133.208µs
+
+SELECT
+  1
+
+[2021-01-08][16:58:03][P2P_server::routes][ERROR] User insert error
+[2021-01-08][16:58:03][actix_web::middleware::logger][INFO] 127.0.0.1:56780 "PUT /register HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.131231
+[2021-01-08][17:03:43][P2P_server][INFO] Starting server
+[2021-01-08][17:03:43][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][17:03:43][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][17:03:43][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:43][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:03:49][actix_web::middleware::logger][INFO] 127.0.0.1:58198 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.084900
+[2021-01-08][17:03:55][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.292µs
+
+SELECT
+  1
+
+[2021-01-08][17:03:55][actix_web::middleware::logger][INFO] 127.0.0.1:58225 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.038410
+[2021-01-08][17:05:28][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.459µs
+
+SELECT
+  1
+
+[2021-01-08][17:05:28][actix_web::middleware::logger][INFO] 127.0.0.1:58616 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.050556
+[2021-01-08][17:05:29][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.542µs
+
+SELECT
+  1
+
+[2021-01-08][17:05:29][actix_web::middleware::logger][INFO] 127.0.0.1:58616 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.011949
+[2021-01-08][17:06:14][actix_web::middleware::logger][INFO] 127.0.0.1:58820 "GET /users HTTP/1.1" 401 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.012481
+[2021-01-08][17:06:16][actix_web::middleware::logger][INFO] 127.0.0.1:58820 "GET /users HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.007479
+[2021-01-08][17:06:20][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.708µs
+
+SELECT
+  1
+
+[2021-01-08][17:06:20][actix_web::middleware::logger][INFO] 127.0.0.1:58820 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.023187
+[2021-01-08][17:06:20][actix_web::middleware::logger][INFO] 127.0.0.1:58820 "GET /users HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.002119
+[2021-01-08][17:06:39][actix_server::builder][INFO] SIGINT received, exiting
+[2021-01-08][17:06:58][P2P_server][INFO] Starting server
+[2021-01-08][17:06:58][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][17:06:58][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][17:06:59][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:06:59][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:07:02][actix_web::middleware::logger][INFO] 127.0.0.1:59030 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.191022
+[2021-01-08][17:07:59][actix_web::middleware::logger][INFO] 127.0.0.1:59030 "GET /users HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 57.000809
+[2021-01-08][17:09:39][actix_web::middleware::logger][INFO] 127.0.0.1:59314 "GET /users HTTP/1.1" 401 0 "-" "PostmanRuntime/7.26.8" 90.454401
+[2021-01-08][17:09:39][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 426.041µs
+
+SELECT
+  1
+
+[2021-01-08][17:09:39][actix_web::middleware::logger][INFO] 127.0.0.1:59613 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.319029
+[2021-01-08][17:09:39][actix_web::middleware::logger][INFO] 127.0.0.1:59613 "GET /users HTTP/1.1" 401 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.019923
+[2021-01-08][17:12:55][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.667µs
+
+SELECT
+  1
+
+[2021-01-08][17:12:55][actix_web::middleware::logger][INFO] 127.0.0.1:60516 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.145312
+[2021-01-08][17:23:00][P2P_server][INFO] Starting server
+[2021-01-08][17:23:00][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][17:23:00][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][17:23:00][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:00][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][17:23:05][actix_web::middleware::logger][INFO] 127.0.0.1:63064 "PUT /users HTTP/1.1" 200 1714 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.393366
+[2021-01-08][17:24:10][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 534.500µs
+
+SELECT
+  1
+
+[2021-01-08][17:24:10][actix_web::middleware::logger][INFO] 127.0.0.1:63335 "PUT /users HTTP/1.1" 200 1714 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.377329
+[2021-01-08][17:24:17][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 8.125µs
+
+SELECT
+  1
+
+[2021-01-08][17:24:17][actix_web::middleware::logger][INFO] 127.0.0.1:63374 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.501904
+[2021-01-08][17:24:17][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 1.208µs
+
+SELECT
+  1
+
+[2021-01-08][17:24:17][actix_web::middleware::logger][INFO] 127.0.0.1:63374 "PUT /users HTTP/1.1" 200 1714 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.026535
+[2021-01-08][17:24:37][actix_web::middleware::logger][INFO] 127.0.0.1:63461 "GET /empty HTTP/1.1" 404 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.049335
+[2021-01-08][17:24:43][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 7.708µs
+
+SELECT
+  1
+
+[2021-01-08][17:24:43][actix_web::middleware::logger][INFO] 127.0.0.1:63489 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.050619
+[2021-01-08][17:24:43][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 958.000ns
+
+SELECT
+  1
+
+[2021-01-08][17:24:43][actix_web::middleware::logger][INFO] 127.0.0.1:63489 "PUT /users HTTP/1.1" 200 1714 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.009238
+[2021-01-08][18:26:12][P2P_server][INFO] Starting server
+[2021-01-08][18:26:12][actix_server::builder][INFO] Starting 8 workers
+[2021-01-08][18:26:12][actix_server::builder][INFO] Starting "actix-web-service-127.0.0.1:5002" service on 127.0.0.1:5002
+[2021-01-08][18:26:12][trust_dns_resolver::async_resolver][DEBUG] trust-dns resolver running
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:12][actix_redis::redis][INFO] Connected to redis server: 127.0.0.1:6379
+[2021-01-08][18:26:23][sqlx::query][DEBUG] update users SET ..., elapsed: 5.083µs
+
+update
+  users
+SET
+  updated_at = current_timestamp
+where
+  username = $1
+
+[2021-01-08][18:26:23][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 500.000ns
+
+SELECT
+  1
+
+[2021-01-08][18:26:23][actix_web::middleware::logger][INFO] 127.0.0.1:62568 "PUT /login HTTP/1.1" 200 214 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.198433
+[2021-01-08][18:26:23][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 2.583µs
+
+SELECT
+  1
+
+[2021-01-08][18:26:23][actix_web::middleware::logger][INFO] 127.0.0.1:62568 "PUT /users HTTP/1.1" 200 1714 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.030384
+[2021-01-08][18:27:31][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 3.417µs
+
+SELECT
+  1
+
+[2021-01-08][18:27:31][sqlx::query][DEBUG] update users SET ..., elapsed: 4.958µs
+
+update
+  users
+SET
+  updated_at = current_timestamp
+where
+  username = $1
+
+[2021-01-08][18:27:31][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 583.000ns
+
+SELECT
+  1
+
+[2021-01-08][18:27:31][actix_web::middleware::logger][INFO] 127.0.0.1:62852 "PUT /login HTTP/1.1" 200 209 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.106604
+[2021-01-08][18:27:31][sqlx::query][DEBUG] SELECT 1 ..., elapsed: 750.000ns
+
+SELECT
+  1
+
+[2021-01-08][18:27:31][actix_web::middleware::logger][INFO] 127.0.0.1:62852 "PUT /users HTTP/1.1" 200 1714 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" 0.021657

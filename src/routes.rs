@@ -1,12 +1,16 @@
 use std::string;
 
 use actix_web::{get, post, put, delete, web, HttpResponse,HttpRequest, Responder, Result , App};
-use serde_json::json;
+use actix_web::web::Data;
+use config::get_header;
+use serde_json::{Value, json};
 use serde::{Deserialize, Serialize};
-use log::{debug};
+use log::{debug,error};
 use actix_session::Session;
 use chrono::prelude::*;
-
+use std::sync::Arc;
+use sqlx::{PgConnection, PgPool, Pool};
+use crate::{config, db::user::{create, delete_user, find_by_username, get_all}, models::user::NewUser};
 #[derive(Serialize, Deserialize)]
 struct IUser {
     name:String,
@@ -15,55 +19,123 @@ struct IUser {
     payload:String,
     date:i64
 }
-#[get("/users")]
-async fn get_users(session:Session) -> Result<HttpResponse> {
-    let users: Option<Vec<IUser>> = session.get("user")?;
-    let response;
-    if let Some(v) = users {
-        response = json!(v);
-    } else {
-        response = json!([]);
-    }
-    Ok(HttpResponse::Ok().json(
-        &response
-    ))
+#[derive(Serialize, Deserialize)]
+struct IRequest {
+    token:String
+}
+#[put("/users")]
+async fn get_users(req_body:web::Json<IRequest>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
+    match config::verify_jwt(req_body.0.token).await {
+        Ok(_) => {},
+        _ => return Ok(HttpResponse::Unauthorized().await?),
+    };
+    match get_all(pool.get_ref()).await {
+        Ok(val) => {
+            return Ok(HttpResponse::Ok().json(
+                json!(val)
+            ));
+        }
+        Err(_) => {
+            return Ok(HttpResponse::Unauthorized().await?);
+        }
+    };
+    
 }
 #[put("/register")]
-async fn register_user(req_body:web::Json<IUser>,session:Session) -> Result<HttpResponse> {
-    let counter: i32 = session
-        .get::<i32>("counter")
-        .unwrap_or(Some(0))
-        .map_or(0, |inner| inner);
-    session.set("counter", counter+1)?;
-    let users: Option<Vec<IUser>> = session.get("user")?;
-    let new_user = IUser{
-        id:counter,
-        name:req_body.name.to_string(),
-       status:true,
-       payload:req_body.payload.to_string(),
-       date:Utc::now().timestamp_millis()
+async fn register_user(req_body:web::Json<NewUser>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
+    match create(pool.as_ref(),req_body.0).await {
+        Ok(val) => {
+            let response:Value= json!(
+                {
+                    "username":val.username,
+                    "active":val.active,
+                    "token": match config::generate_jwt(val.id).await {
+                        Ok(token) => token,
+                        _ => "error".to_string()
+                    }
+                }
+            );
+            debug!("User insert sucessful");
+            return Ok(HttpResponse::Ok().json(
+                response
+            ));
+        },
+        
+        Err(_) => {
+            error!("User insert error");
+            return Ok(HttpResponse::Unauthorized().await?);
+        }
     };
-    let response = json!(&new_user);
-    if let Some(mut v) = users {
-        v.push(new_user);
-        session.set("user",v);
-    } else {
-        session.set("user",vec![new_user]);
-    }
-    
-    // session.set(key, value)
-    // session.renew();
-    Ok(HttpResponse::Ok().json(
-        response
-    ))
+}
+#[put("/login")]
+async fn login_user(req_body:web::Json<NewUser>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
+    match find_by_username(pool.as_ref(),&req_body.username).await {
+        Ok(val) => {
+            match val {
+                Some(user) => {
+                    let response:Value= json!(
+                    {
+                        "username":user.username,
+                        "active":user.active,
+                        "token": match config::generate_jwt(user.id).await {
+                            Ok(token) => token,
+                            _ => "error".to_string()
+                        }
+                    });
+                    return Ok(HttpResponse::Ok().json(
+                        response
+                    ));
+            }, 
+                None => {},
+            };
+            return Ok(HttpResponse::BadRequest().await?);
+        },
+        
+        Err(_) => {
+            error!("User insert error");
+            return Ok(HttpResponse::Unauthorized().await?);
+        }
+    };
+}
+#[put("/logout")]
+async fn logout_user(req_body:web::Json<NewUser>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
+    match (pool.as_ref(),&req_body.username).await {
+        Ok(val) => {
+            match val {
+                Some(user) => {
+                    let response:Value= json!(
+                    {
+                        "username":user.username,
+                        "active":user.active,
+                        "token": match config::generate_jwt(user.id).await {
+                            Ok(token) => token,
+                            _ => "error".to_string()
+                        }
+                    });
+                    return Ok(HttpResponse::Ok().json(
+                        response
+                    ));
+            }, 
+                None => {},
+            };
+            return Ok(HttpResponse::BadRequest().await?);
+        },
+        
+        Err(_) => {
+            error!("User insert error");
+            return Ok(HttpResponse::Unauthorized().await?);
+        }
+    };
 }
 #[put("/empty")]
-async fn empty_users(session:Session) -> HttpResponse {
+async fn empty_users(session:Session,pool:Data<PgPool>) -> HttpResponse {
     session.clear();
+    let _ = delete_user(&pool);
     HttpResponse::Ok().finish()
 }
 pub fn init_routes(cfg: &mut web::ServiceConfig) {
     cfg.service(get_users);
     cfg.service(register_user);
     cfg.service(empty_users);
+    cfg.service(login_user);
 }
