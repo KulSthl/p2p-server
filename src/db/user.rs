@@ -45,7 +45,16 @@ struct UserIdentifier {
         .await?;
         Ok(user)
     }
-
+    pub async fn change_active(pool:&PgPool,uuid:Uuid, active:bool) -> Result<User> {
+        let user = sqlx::query_as::<_, User>(
+            "update users SET active = $2 where id = $1",
+        )
+        .bind(uuid)
+        .bind(active)
+        .fetch_one(pool)
+        .await?;
+        Ok(user)
+    }
     pub async fn find_by_username(pool:&PgPool, username: &str) -> Result<Option<User>> {
         update_updated_at(pool, UserIdentifier{username:Some(username.to_string()),id:None}).await;
         let maybe_user = sqlx::query_as::<_, User>("select * from users where username = $1")

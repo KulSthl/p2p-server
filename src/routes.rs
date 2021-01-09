@@ -1,6 +1,6 @@
 use std::string;
 
-use actix_web::{get, post, put, delete, web, HttpResponse,HttpRequest, Responder, Result , App};
+use actix_web::{App, HttpRequest, HttpResponse, Responder, Result, delete, get, http::header::Accept, post, put, web};
 use actix_web::web::Data;
 use config::get_header;
 use serde_json::{Value, json};
@@ -10,7 +10,7 @@ use actix_session::Session;
 use chrono::prelude::*;
 use std::sync::Arc;
 use sqlx::{PgConnection, PgPool, Pool};
-use crate::{config, db::user::{create, delete_user, find_by_username, get_all}, models::user::NewUser};
+use crate::{config, db::user::{change_active, create, delete_user, find_by_username, get_all}, models::user::NewUser};
 #[derive(Serialize, Deserialize)]
 struct IUser {
     name:String,
@@ -98,34 +98,20 @@ async fn login_user(req_body:web::Json<NewUser>,session:Session,pool:Data<PgPool
     };
 }
 #[put("/logout")]
-async fn logout_user(req_body:web::Json<NewUser>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
-    match (pool.as_ref(),&req_body.username).await {
+async fn logout_user(req_body:web::Json<IRequest>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
+    match config::verify_jwt(req_body.0.token).await {
         Ok(val) => {
-            match val {
-                Some(user) => {
-                    let response:Value= json!(
-                    {
-                        "username":user.username,
-                        "active":user.active,
-                        "token": match config::generate_jwt(user.id).await {
-                            Ok(token) => token,
-                            _ => "error".to_string()
-                        }
-                    });
-                    return Ok(HttpResponse::Ok().json(
-                        response
-                    ));
-            }, 
-                None => {},
-            };
-            return Ok(HttpResponse::BadRequest().await?);
-        },
-        
-        Err(_) => {
-            error!("User insert error");
-            return Ok(HttpResponse::Unauthorized().await?);
+            match change_active(pool.as_ref(),val.claims.sub,false).await {
+            Ok(val) => {
+                return Ok(HttpResponse::Accepted().await?);
+            },
+            _ => {
+                return Ok(HttpResponse::BadRequest().await?);
+            }
         }
-    };
+    },      
+    Err(_) => {return Ok(HttpResponse::BadRequest().await?);}
+    }
 }
 #[put("/empty")]
 async fn empty_users(session:Session,pool:Data<PgPool>) -> HttpResponse {
