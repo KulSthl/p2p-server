@@ -1,5 +1,5 @@
 [package]
-name = "P2P-server"
+name = "p2p_server"
 version = "0.1.0"
 authors = ["Stefan <hoef.stef@pm.me>"]
 edition = "2018"
