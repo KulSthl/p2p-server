@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'P2P-server'",
+            "name": "Debug executable 'p2p_server'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=P2P-server",
-                    "--package=P2P-server"
+                    "--bin=p2p_server",
+                    "--package=p2p_server"
                 ],
                 "filter": {
-                    "name": "P2P-server",
+                    "name": "p2p_server",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'P2P-server'",
+            "name": "Debug unit tests in executable 'p2p_server'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=P2P-server",
-                    "--package=P2P-server"
+                    "--bin=p2p_server",
+                    "--package=p2p_server"
                 ],
                 "filter": {
-                    "name": "P2P-server",
+                    "name": "p2p_server",
                     "kind": "bin"
                 }
             },

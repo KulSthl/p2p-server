@@ -1,1 +1,0 @@
-drop FUNCTION delete_old_rows()

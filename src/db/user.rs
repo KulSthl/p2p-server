@@ -36,7 +36,7 @@ struct UserIdentifier {
             }
         }
     }
-    pub async fn create(pool:&PgPool, new_user: NewUser) -> Result<User> {
+    pub async fn create_user(pool:&PgPool, new_user: NewUser) -> Result<User> {
         let user = sqlx::query_as::<_, User>(
             "insert into users (username) values ($1) returning *",
         )
