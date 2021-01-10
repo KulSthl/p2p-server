@@ -24,11 +24,11 @@ pub async fn dettach_room(pool:&PgPool, room_id:Uuid, users_id:Uuid ) -> Result<
     sqlx::query_as::<_, UserRoom>(
         "
        DELETE FROM user_room where room_id=(
-            select id from room where room.name = 'testRaum'
+            select id from room where room.id = $1
         )
         
         and users_id=(
-            select id from users where users.username = 'test'
+            select id from users where users.id = $2
         ); 
         ",
     )
