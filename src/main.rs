@@ -47,7 +47,7 @@ async fn main() -> std::io::Result<()> {
         .data(pool.clone())
         .wrap(
             Cors::new() // <- Construct CORS middleware builder
-              .allowed_origin("http://localhost:3000")
+            //   .allowed_origin("http://localhost:3000")
               .allowed_methods(vec!["GET", "POST","PUT"])
               .allowed_headers(vec![http::header::AUTHORIZATION, http::header::ACCEPT])
               .allowed_header(http::header::CONTENT_TYPE)
@@ -58,7 +58,7 @@ async fn main() -> std::io::Result<()> {
               .finish())
             .route("/hey", web::get().to(manual_hello))
             .configure(routes::init_routes)
-            // .service(actix_files::Files::new("/", "../../frontend/build").index_file("index.html"))
+            .service(actix_files::Files::new("/", "./wwwroot").index_file("index.html"))
     });
     server = match listenfd.take_tcp_listener(0)? {
         Some(listener) => server.listen(listener)?,

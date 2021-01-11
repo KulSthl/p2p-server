@@ -21,6 +21,11 @@ struct IUser {
     date:i64
 }
 #[derive(Serialize, Deserialize)]
+struct IError {
+    message:String,
+    id:i32
+}
+#[derive(Serialize, Deserialize)]
 struct IRequest {
     token:String,
 }
@@ -64,7 +69,7 @@ async fn register_user(req_body:web::Json<NewUser>,session:Session,pool:Data<PgP
         
         Err(_) => {
             error!("User insert error");
-            return Ok(HttpResponse::Unauthorized().await?);
+            return Ok(HttpResponse::Unauthorized().json(IError{id:401,message:"user already exists".to_string()}).await?);
         }
     };
 }
@@ -74,29 +79,35 @@ async fn login_user(req_body:web::Json<NewUser>,session:Session,pool:Data<PgPool
         Ok(val) => {
             match val {
                 Some(user) => {
-                    let response:Value= json!(
-                    {
-                        "username":user.username,
-                        "active":user.active,
-                        "token": match config::generate_jwt(user.id).await {
-                            Ok(token) => token,
-                            _ => "error".to_string()
-                        }
-                    });
-                    return Ok(HttpResponse::Ok().json(
-                        response
-                    ));
+                    
+                    match change_active(&pool, user.id, true).await{
+                        Ok(user) => {
+                            let response:Value= json!(
+                            {
+                                "username":user.username,
+                                "active":user.active,
+                                "token": match config::generate_jwt(user.id).await {
+                                    Ok(token) => token,
+                                    _ => "error".to_string()
+                                }
+                            });
+                            return Ok(HttpResponse::Ok().json(
+                            response
+                            ));
+                        },
+                        Err(_)=>{error!("Login: Change active failed")}
+                    }
+                    
             }, 
-                None => {},
+                None => {error!("Login: No user found")},
             };
-            return Ok(HttpResponse::BadRequest().await?);
         },
         
         Err(_) => {
-            error!("User insert error");
-            return Ok(HttpResponse::Unauthorized().await?);
+            error!("Login: User not found");
         }
     };
+    return Ok(HttpResponse::Unauthorized().json(IError{id:401,message:"user does not exist".to_string()}).await?);
 }
 #[put("/api/users/logout")]
 async fn logout_user(req_body:web::Json<IRequest>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
@@ -107,11 +118,11 @@ async fn logout_user(req_body:web::Json<IRequest>,session:Session,pool:Data<PgPo
                 return Ok(HttpResponse::Ok().await?);
             },
             _ => {
-                return Ok(HttpResponse::BadRequest().await?);
+                return Ok(HttpResponse::Unauthorized().await?);
             }
         }
     },      
-    Err(_) => {return Ok(HttpResponse::BadRequest().await?);}
+    Err(_) => {return Ok(HttpResponse::Unauthorized().await?);}
     }
 }
 #[put("/api/users/empty")]
@@ -139,7 +150,7 @@ async fn create_room(req_body:web::Json<NewRoomRequest>,session:Session,pool:Dat
         }
        _=>{}
     }
-    Ok(HttpResponse::Unauthorized().await?)
+    Ok(HttpResponse::Unauthorized().json(IError{id:401,message:"room already exists".to_string()}).await?)
 }
 #[derive(Serialize, Deserialize)]
 struct RoomRequest {
@@ -157,7 +168,7 @@ async fn get_room(req_body:web::Json<IRequest>,session:Session,pool:Data<PgPool>
         }
        _=>{}
     }
-    Ok(HttpResponse::Unauthorized().await?)
+    Ok(HttpResponse::Unauthorized().json(IError{id:401,message:"unauthorized".to_string()}).await?)
 }
 #[put("/api/room/join")]
 async fn join_room(req_body:web::Json<RoomRequest>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
@@ -170,7 +181,7 @@ async fn join_room(req_body:web::Json<RoomRequest>,session:Session,pool:Data<PgP
         }
        _=>{}
     }
-    Ok(HttpResponse::Unauthorized().await?)
+    Ok(HttpResponse::Unauthorized().json(IError{id:401,message:"unauthorized".to_string()}).await?)
 }
 
 #[put("/api/room/leave")]
@@ -188,6 +199,23 @@ async fn leave_room(req_body:web::Json<RoomRequest>,session:Session,pool:Data<Pg
     }
     Ok(HttpResponse::Unauthorized().await?)
 }
+#[put("/api/room/get/users")]
+async fn get_room_users(req_body:web::Json<RoomRequest>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
+    match config::verify_jwt(req_body.0.token).await {
+        Ok(val) => {
+            match db::room::get_user_in_room(&pool, req_body.0.room_id).await{
+                Ok(v) => {
+                    return Ok(HttpResponse::Ok().json(v).await?);
+                },
+                Err(_)=>{error!("Error on get user in room")}
+            };
+        },
+            
+        
+       _=>{}
+    };
+    Ok(HttpResponse::Unauthorized().await?)
+}
 pub fn init_routes(cfg: &mut web::ServiceConfig) {
     cfg.service(get_users);
     cfg.service(register_user);
@@ -197,4 +225,5 @@ pub fn init_routes(cfg: &mut web::ServiceConfig) {
     cfg.service(get_room);
     cfg.service(join_room);
     cfg.service(leave_room);
+    cfg.service(get_room_users);
 }

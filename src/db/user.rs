@@ -47,7 +47,10 @@ struct UserIdentifier {
     }
     pub async fn change_active(pool:&PgPool,uuid:Uuid, active:bool) -> Result<User> {
         let user = sqlx::query_as::<_, User>(
-            "update users SET active = $2 where id = $1",
+            "update users SET
+             active = $2,
+             updated_at = current_timestamp
+             where id = $1 returning *",
         )
         .bind(uuid)
         .bind(active)
@@ -56,7 +59,6 @@ struct UserIdentifier {
         Ok(user)
     }
     pub async fn find_by_username(pool:&PgPool, username: &str) -> Result<Option<User>> {
-        update_updated_at(pool, UserIdentifier{username:Some(username.to_string()),id:None}).await;
         let maybe_user = sqlx::query_as::<_, User>("select * from users where username = $1")
             .bind(username)
             .fetch_optional(pool)
@@ -66,7 +68,6 @@ struct UserIdentifier {
     }
 
     pub async fn find_by_id(pool:&PgPool, id: Uuid) -> Result<Option<User>> {
-        update_updated_at(pool, UserIdentifier{username:None,id:Some(id)}).await;
         let maybe_user = sqlx::query_as::<_, User>("select * from users where id = $1")
             .bind(id)
             .fetch_optional(pool)
