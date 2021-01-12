@@ -16,3 +16,4 @@ Cargo.lock
 *.log
 
 wwwroot
+.DS_Store
