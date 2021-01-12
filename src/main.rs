@@ -41,9 +41,7 @@ async fn main() -> std::io::Result<()> {
     // let _www = env::var("WWW").expect("WWW not set");
     let mut server = HttpServer::new(move || {
         App::new()
-        .wrap(RedisSession::new("127.0.0.1:6379", &private_key))
-            // enable logger - always register actix-web Logger middleware last
-        .wrap(middleware::Logger::default())
+        .wrap(RedisSession::new(env::var("REDIS_URL").expect("REDIS_URL is missing"), &private_key))
         .data(pool.clone())
         .wrap(
             Cors::new() // <- Construct CORS middleware builder
@@ -59,6 +57,8 @@ async fn main() -> std::io::Result<()> {
             .route("/hey", web::get().to(manual_hello))
             .configure(routes::init_routes)
             .service(actix_files::Files::new("/", "./wwwroot").index_file("index.html"))
+                 // enable logger - always register actix-web Logger middleware last
+            .wrap(middleware::Logger::default())
     });
     server = match listenfd.take_tcp_listener(0)? {
         Some(listener) => server.listen(listener)?,
