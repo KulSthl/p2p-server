@@ -14,6 +14,7 @@ use dotenv::dotenv;
 use listenfd::ListenFd;
 use log::{info, error};
 use serde::{Deserialize, Serialize};
+use sqlx::migrate;
 use std::env;
 use rand::Rng;
 use std::path::PathBuf;
@@ -36,6 +37,12 @@ async fn main() -> std::io::Result<()> {
     let private_key = rand::thread_rng().gen::<[u8; 32]>();
     dotenv().ok();
     let pool = config::db_pool(env::var("DATABASE_URL").expect("Database url missing")).await.expect("DB FAILURE");
+    let connection = pool.try_acquire().expect("Connection failed");
+
+    let mut migrator = sqlx::migrate!("./migrations");
+    // Temporary workaround: remove reverse migrations.
+    migrator.migrations.to_mut().retain(|migration| !migration.description.ends_with(".down"));
+    migrator.run(&pool).await;
     let mut listenfd = ListenFd::from_env();
     logger::setup_logger().expect("Could not setup logger");
     // let _www = env::var("WWW").expect("WWW not set");

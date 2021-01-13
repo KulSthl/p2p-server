@@ -1,13 +1,9 @@
 use crate::{
-    models::user::{NewUser, User},
+    models::user::{ User },
     models::room::{NewRoom, Room},
 };
-use actix_web::{web::Data, FromRequest};
-use log::error;
-use sqlx::postgres::PgQueryAs;
 use sqlx::PgPool;
 use sqlx::Result;
-use std::{ops::Deref, sync::Arc};
 use uuid::Uuid;
 
 use super::user_room::{attach_room, dettach_room};
