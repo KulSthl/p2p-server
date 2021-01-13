@@ -1,11 +1,15 @@
-# linux_build:
-# 	cargo build --release --target=x86_64-unknown-linux-musl
 
 linux_build_docker:
-	docker run -v $(shell pwd):/volume -v cargo-cache:/root/.cargo/registry --rm -t clux/muslrust cargo build --release;exit
+	docker run -v $(shell pwd):/volume -v cargo-cache:/root/.cargo/registry --rm -t clux/muslrust cargo build --release --target x86_64-unknown-linux-musl ;exit
 
 linux_build_podman:
-	podman run -v $(shell pwd):/volume -v cargo-cache:/root/.cargo/registry --rm -t clux/muslrust cargo build --release;exit
+	podman run -v $(shell pwd):/volume -v cargo-cache:/root/.cargo/registry --rm -t clux/muslrust cargo build --release --target x86_64-unknown-linux-musl ;exit
+	
+linux_build_docker_dev:
+	docker run -v $(shell pwd):/volume -v cargo-cache:/root/.cargo/registry --rm -t clux/muslrust cargo build --target x86_64-unknown-linux-musl ;exit
+
+linux_build_podman_dev:
+	podman run -v $(shell pwd):/volume -v cargo-cache:/root/.cargo/registry --rm -t clux/muslrust cargo build --target x86_64-unknown-linux-musl ;exit
 
 # docker-compose build can be used instead
 build_image_docker:
