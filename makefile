@@ -13,7 +13,7 @@ linux_build_podman_dev:
 
 # docker-compose build can be used instead
 build_image_docker:
-	docker build -f Dockerfile .
+	docker build -f Dockerfile . -t kulsthl/p2pserver:latest
 build_image_podman:
 	podman build -f Dockerfile .
 build_image_docker_dev:
@@ -24,4 +24,4 @@ build_image_podman_dev:
 run_full_linux_podman:
 	make linux_build_podman & make build_image_podman
 run_full_linux_docker:
-	make linux_build_docker & make build_image_docker
+	make linux_build_docker & make build_image_docker & docker push kulsthl/p2pserver  
