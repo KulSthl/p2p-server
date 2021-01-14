@@ -1,4 +1,4 @@
-use sqlx::postgres::PgPool;
+use sqlx::{Error, postgres::{PgPool, PgPoolOptions}};
 use log::{info};
 use actix_web::web::{self, block};
 use jsonwebtoken::{decode, encode, DecodingKey, EncodingKey, Header, TokenData, Validation};
@@ -14,12 +14,11 @@ pub struct Claims {
     // role
     // perms
 }
-pub async fn db_pool(database_url:String) -> Result<sqlx::Pool<sqlx::PgConnection>, sqlx::Error>  {
+pub async fn db_pool(database_url:String) -> Result<PgPool,Error>   {
     info!("Creating database connection pool.");
-    PgPool::builder()
-        .connect_timeout(std::time::Duration::from_secs(30))
-        .build(&database_url)
-        .await
+        PgPoolOptions::new()
+        .max_connections(5)
+        .connect(&database_url).await
 }
 pub async fn generate_jwt(user_id: Uuid) -> Result<String, actix_web::error::BlockingError<jsonwebtoken::errors::Error>> {
     let jwt_key = env::var("JWT_SECRET").expect("JWT token missing");

@@ -14,6 +14,7 @@ use dotenv::dotenv;
 use listenfd::ListenFd;
 use log::{info, error};
 use serde::{Deserialize, Serialize};
+use sqlx::migrate;
 use std::env;
 use rand::Rng;
 use std::path::PathBuf;
@@ -36,14 +37,18 @@ async fn main() -> std::io::Result<()> {
     let private_key = rand::thread_rng().gen::<[u8; 32]>();
     dotenv().ok();
     let pool = config::db_pool(env::var("DATABASE_URL").expect("Database url missing")).await.expect("DB FAILURE");
+    let connection = pool.try_acquire().expect("Connection failed");
+
+    let mut migrator = sqlx::migrate!("./migrations");
+    // Temporary workaround: remove reverse migrations.
+    migrator.migrations.to_mut().retain(|migration| !migration.description.ends_with(".down"));
+    migrator.run(&pool).await;
     let mut listenfd = ListenFd::from_env();
     logger::setup_logger().expect("Could not setup logger");
     // let _www = env::var("WWW").expect("WWW not set");
     let mut server = HttpServer::new(move || {
         App::new()
-        .wrap(RedisSession::new("127.0.0.1:6379", &private_key))
-            // enable logger - always register actix-web Logger middleware last
-        .wrap(middleware::Logger::default())
+        .wrap(RedisSession::new(env::var("REDIS_URL").expect("REDIS_URL is missing"), &private_key))
         .data(pool.clone())
         .wrap(
             Cors::new() // <- Construct CORS middleware builder
@@ -59,6 +64,8 @@ async fn main() -> std::io::Result<()> {
             .route("/hey", web::get().to(manual_hello))
             .configure(routes::init_routes)
             .service(actix_files::Files::new("/", "./wwwroot").index_file("index.html"))
+                 // enable logger - always register actix-web Logger middleware last
+            .wrap(middleware::Logger::default())
     });
     server = match listenfd.take_tcp_listener(0)? {
         Some(listener) => server.listen(listener)?,

@@ -1,10 +1,6 @@
-use crate::{models::room::{NewRoom, Room}, models::{user::{NewUser, User}, user_room::UserRoom}};
-use actix_web::{web::Data, FromRequest};
-use log::error;
-use sqlx::{postgres::PgQueryAs, sqlx_macros};
+use crate::{models::{user_room::UserRoom}};
 use sqlx::PgPool;
 use sqlx::Result;
-use std::{ops::Deref, sync::Arc};
 use uuid::Uuid;
 struct RoomIdentifier {
     name:Option<String>,

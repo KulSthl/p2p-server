@@ -1,9 +1,7 @@
 use crate::{
     models::user::{NewUser, User},
 };
-use actix_web::{web::Data, FromRequest};
 use log::error;
-use sqlx::postgres::PgQueryAs;
 use sqlx::PgPool;
 use sqlx::Result;
 use std::{ops::Deref, sync::Arc};

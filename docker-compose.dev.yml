@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.9"
 services:
   postgres:
     image: postgres:11-alpine
@@ -7,23 +7,21 @@ services:
       POSTGRES_PASSWORD: actix
       POSTGRES_USER: actix
       POSTGRES_DB: actix
-    volumes: 
-      - ./postgres:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-  
   redis:
     restart: always
     image: "redis:alpine"
     ports:
      - "6379:6379"
-
   p2p-server:
-    image: kulsthl/p2pserver
     restart: always
-    build: .
+    build: 
+     context: .
+     dockerfile: "Dockerfile.dev"
     ports:
-      - "8080:8080"
+     - "5000-9999:80"
+     - "80:80"
     depends_on: 
      - postgres
      - redis
