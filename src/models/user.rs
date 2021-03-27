@@ -7,7 +7,6 @@ use validator::Validate;
 pub struct User {
     pub id: Uuid,
     pub username: Option<String>,
-    #[serde(skip_serializing)]
     pub active: bool,
     pub created_at: NaiveDateTime,
     pub updated_at: NaiveDateTime,

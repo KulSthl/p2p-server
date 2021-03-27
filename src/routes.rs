@@ -29,6 +29,8 @@ struct IError {
 struct IRequest {
     token:String,
 }
+
+
 #[put("/api/users/get")]
 async fn get_users(req_body:web::Json<IRequest>,session:Session,pool:Data<PgPool>) -> Result<HttpResponse> {
     match config::verify_jwt(req_body.0.token).await {
@@ -205,6 +207,9 @@ async fn get_room_users(req_body:web::Json<RoomRequest>,session:Session,pool:Dat
         Ok(val) => {
             match db::room::get_user_in_room(&pool, req_body.0.room_id).await{
                 Ok(v) => {
+                    for user in &v {
+                        println!("{}",json!(user));
+                    }
                     return Ok(HttpResponse::Ok().json(v).await?);
                 },
                 Err(_)=>{error!("Error on get user in room")}
@@ -221,6 +226,7 @@ pub fn init_routes(cfg: &mut web::ServiceConfig) {
     cfg.service(register_user);
     cfg.service(empty_users);
     cfg.service(login_user);
+    cfg.service(logout_user);
     cfg.service(create_room);
     cfg.service(get_room);
     cfg.service(join_room);
